@@ -28,7 +28,7 @@
                 <td><?= $product['product_name'] ?></td>
                 <td><?= $product['product_price'] ?></td>
                 <td><?= $product['product_article'] ?></td>
-                <td><?= $product['product_quantity'] ?></td>
+                <td class="js-quantity"><?= $product['product_quantity'] ?></td>
                 <td><a href="#" data-pid="<?= $product['id'] ?>" class="js-minus">-</a></td>
                 <td><a href="#" data-pid="<?= $product['id'] ?>" class="js-plus">+</a></td>
                 <td><?= $product['date_create'] ?></td>
